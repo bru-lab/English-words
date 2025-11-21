@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --white: #ffffff;
+    --red: #b31942;
+    --blue: #0a3161;
+    --fonte-principal: 'Poppins';
+    --fonte-secundaria: 'Montserrat';
+    
+}
+
+h1{
+    font-size: 60px;
+    color: var(--red);
+}
+
+h3{
+    font-size: 34px;
+    color: var(--red);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--fonte-principal), sans-serif;
+    background-color: var(--white);
+    
+}
+
+.container{
+    text-align: center;
+    width: 800px;
+    background-image: url('img/us.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 3em;
+    color: var(--white);
+    opacity: 0.8;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.opcoes{
+    background-color: var(--red);
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 1.5em;
+    
+}
+
+
+
+.zonaProposicao{
+    padding: 15px;
+    background-color: var(--white);
+    color: var(--red);
+    font-size: 36px;
+    
+}
+
+.typing-area{
+    display: flex;
+    gap: 20px;
+}
+
+#validateBtn{
+    padding: 1em;
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1em;
+    border-radius: 16px;
+    
+}
+
+#textField{
+    width: 90%;
+    padding: 10pxS;
+    border-radius: 16px;
+    font-size: 20px;
+}
+
+div{
+    margin: 1em 0;
+}
+
+.zonaScore{
+    font-size: 2em;
+    color: black;
+}

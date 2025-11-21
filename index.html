@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="Game.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="main.js" defer></script>
+    <title>English words</title>
+</head>
+<body>
+    <header>
+        <h1>English words</h1>
+        <h3>Aprenda inglês de maneira simples com as palavras e frases mais usadas no dia a dia.</h3>
+    </header>
+    
+    <main>
+        <div class="container">
+                <div class="opcoes">
+                    <div class="opcao">
+                        <input type="radio" id="palavra" name="opcao" value="1" checked>
+                        <label for="palavra">Words</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="radio" id="frase" name="opcao" value="2">
+                        <label for="frase">Phrases</label>
+                    </div>
+                </div>
+                <div class="zonaProposicao">
+                    
+                </div>
+                <div class="typing-area">
+                    <input type="text" id="textField">
+                    <button id="validateBtn">Validate</button>
+                </div>
+               
+        </div>
+        <div class="zonaScore">
+            <span>Score: </span>
+        </div>
+    </main>
+</body>
+</html>
